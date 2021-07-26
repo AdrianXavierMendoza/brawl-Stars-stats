@@ -1,0 +1,30 @@
+.coin {
+    /* width: 100px;
+    height: 100px; */
+
+    animation: rotate 5s linear;
+    animation-iteration-count: infinite;
+
+    border-radius: 50%;
+
+    height: 8vh;
+    /* background-color: white;
+    border-radius: 1000px;
+    padding: 9px; */
+    opacity: unset;
+}
+
+.coin:hover {
+    animation-play-state: paused;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateY(360deg);
+    }
+
+}

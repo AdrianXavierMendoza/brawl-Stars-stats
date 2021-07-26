@@ -1,0 +1,17 @@
+:root {
+    --backgroundcolor: #5077f7;
+    --backgroundimage: linear-gradient(180deg,  #c7b844 30%, #5077f7b3 90%);
+}
+
+/* Index Container */
+
+.container {
+background: rgb(219, 226, 35);
+background: radial-gradient(circle, rgba(219, 226, 35, 1) 0%, rgba(51, 164, 223, 1) 39%, rgba(51, 164, 223, 1) 67%, rgba(219, 226, 35, 1) 100%);
+    /* background: url("/static/images/brawl-stars-logo.png");
+    background-repeat: repeat;
+    background-attachment: fixed; */
+    background-size: cover;
+    width: 100%;
+    min-height: 70vh;
+}

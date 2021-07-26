@@ -1,0 +1,31 @@
+{% extends 'main.html' %} {% load static %} {% block css %}
+<link rel="stylesheet" href="{% static 'css/index.css' %}" type="text/css" />
+{% endblock %}{% block content %}
+
+        <div class="content">
+
+
+            <table class="brawlBoard">
+                <tr>
+                    <th>Id</th>
+                    <th>brawler</th>
+                    <th>gadgets</th>
+                    <th>Star powers</th>
+                </tr>
+                {% for item in obj %}
+                <tr>
+                    <td>{{ item.id }}</td>
+                    <td>{{ item.name }}</td>
+    
+                    <td>{% for gadget in item.gadgets %}
+    
+                    {{ gadget.name }}
+    
+    
+                    {% endfor %}</td>
+                    <td>{% for power in item.starPowers %} {{ power.name }} {% endfor %}</td>
+                </tr>
+                {% endfor %}
+            </table>
+        </div>
+{% endblock content %}

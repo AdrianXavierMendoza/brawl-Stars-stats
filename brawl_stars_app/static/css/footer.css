@@ -1,0 +1,36 @@
+footer {
+    background-color: rgb(17, 17, 17);
+    padding: 10vh 0vw;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-icon-list a {
+    color: rgb(187, 182, 182);
+}
+
+.footer-logos {
+    height: 100%;
+}
+
+.footer-icons {
+    display: inline-block;
+    background-color: white;
+    padding: 1.25vh;
+    border-radius: 50px;
+    height: 5vh;
+    margin: 0 10px;
+}
+
+.footer-icon-list div {
+    margin-top: 50px;
+}
+
+.footer-icon-list p {
+    color: white;
+    margin: 10px 0;
+}
